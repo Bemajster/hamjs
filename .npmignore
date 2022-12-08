@@ -1,0 +1,13 @@
+/test/
+/src/
+jest.config.js
+/coverage/
+/docs/
+/examples/
+
+/.github/
+/.vscode/
+
+.prettierrc
+.eslintrc
+.eslintignore

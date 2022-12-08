@@ -1,0 +1,45 @@
+{
+  "name": "hamjs",
+  "version": "0.0.2",
+  "description": "An advanced and extensible JS computation library with support for TypeScript.",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "jest --watchAll",
+    "coverage": "jest --coverage",
+    "build": "tsc",
+    "commit": "git commit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bemajster/hamjs.git"
+  },
+  "keywords": [
+    "math",
+    "computation",
+    "extensible",
+    "library",
+    "typescript",
+    "hamjs"
+  ],
+  "author": "Bemajster",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Bemajster/hamjs/issues"
+  },
+  "contributors": [],
+  "homepage": "https://github.com/Bemajster/hamjs#readme",
+  "devDependencies": {
+    "@swc/jest": "^0.2.23",
+    "@types/jest": "^29.2.4",
+    "@typescript-eslint/eslint-plugin": "^5.46.0",
+    "@typescript-eslint/parser": "^5.46.0",
+    "eslint": "^8.29.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "commander": "^9.4.1"
+  }
+}
