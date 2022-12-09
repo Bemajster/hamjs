@@ -1,11 +1,11 @@
 {
-  "name": "hamjs",
-  "version": "0.0.2",
-  "description": "An advanced and extensible JS computation library with support for TypeScript.",
+  "name": "ham.js",
+  "version": "0.0.3",
+  "description": "An advanced and extensible TypeScript computation library.",
   "types": "./lib/index.d.ts",
   "main": "./lib/index.js",
   "scripts": {
-    "test:watch": "jest --watchAll",
+    "test:watch": "jest",
     "test": "jest",
     "coverage": "jest --coverage",
     "build": "tsc",
@@ -41,6 +41,6 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "commander": "^9.4.1"
+    "decimal.js": "^10.4.3"
   }
 }
